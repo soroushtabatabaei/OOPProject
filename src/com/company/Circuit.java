@@ -13,4 +13,9 @@ public class Circuit {
     public void setNodes(HashSet<Node> nodes) {
         this.nodes = nodes;
     }
+    public Circuit(HashSet<Node> nodes) {
+        this.nodes = nodes;
+        nodes.add(null);
+        System.out.println();
+    }
 }

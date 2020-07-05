@@ -6,4 +6,11 @@ import java.util.HashSet;
 public class Circuit {
     HashSet<Node> nodes= new HashSet<Node>();
 
+    public HashSet<Node> getNodes() {
+        return nodes;
+    }
+
+    public void setNodes(HashSet<Node> nodes) {
+        this.nodes = nodes;
+    }
 }

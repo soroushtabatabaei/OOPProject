@@ -8,6 +8,7 @@ public class Circuit {
 
     public Circuit(HashSet<Node> nodes) {
         this.nodes = nodes;
-        System.out.println("sdojfdpkulhlikjzsdpdsgoi");
+        nodes.add(null);
+        System.out.println();
     }
 }
